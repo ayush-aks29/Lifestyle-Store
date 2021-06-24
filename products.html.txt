@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="stylings.css" type="text/css">
+        <style>
+            .adj{
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+            .adjs{
+                padding-left: 8%;
+                padding-right: 8%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Lifestyle Store</a>
+                </div>
+                <button type="botton" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li>
+                            <span class="glyphicon glyphicon-shopping-cart">
+                                <a href="cart.html">Cart</a>
+                            </span>
+                            
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-user">
+                                <a href="signup.html">Sign Up</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-log-in">
+                                <a href="login.html">Login</a>
+                            </span>
+                            
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cotainer adj">
+            <div class="jumbotron">
+                <center><h1>Welcome to our Lifestyle Store</h1><br>
+                <b>We have the best camera,watches and shirts for you. No need to hunt around .We have
+                    all in one place</b></center>
+            </div>
+        </div>
+        <div class="container adjs">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/1.jpg">
+                        <div class="caption">
+                            <B>Canon EOS</B><br><br>
+                            Price:Rs.36,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/2.jpg">
+                        <div class="caption">
+                          <B>Sony DSLR</B><br>
+                            Price:Rs.40,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/3.jpg">
+                        <div class="caption">
+                          <B>SONY DSLR</B><br>
+                            Price:Rs.50,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/4.jpg">
+                        <div class="caption">
+                          <B>Olympus DSLR</B><br>
+                            Price:Rs.80,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/5.jpg">
+                        <div class="caption">
+                            <B>Titan Raga</B><br>
+                            Price:Rs.13,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/6.jpg">
+                        <div class="caption">
+                          <B>Titan Wanderer</B><br>
+                            Price:Rs.3,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/7.jpg">
+                        <div class="caption">
+                            <br><B>HMT MILAN</B><br>
+                            Price:Rs.8,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/8.jpg">
+                        <div class="caption">
+                            <br><B>FIBER LUBA 8</B><br>
+                            Price:Rs.18,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/9.jpg">
+                        <div class="caption">
+                            <B>H&W</B><br>
+                            Price:Rs.800<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/10.jpg">
+                        <div class="caption">
+                          <B>Louis Philleppe</B><br>
+                            Price:Rs.1,000<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/11.jpg">
+                        <div class="caption">
+                          <B>John Zok</B><br>
+                            Price:Rs.1,500<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#" class="thumbnail">
+                        <img src="images/12.jpg">
+                        <div class="caption">
+                          <B>JHALSANI</B><br>
+                            Price:Rs.1,300<br>
+                            <input type="button" value="Add to Cart" class="btn btn-primary btn-block">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+           <div class="container">
+               <center>
+                    <p>Copyright © Lifestyle Store. All Rights Reserved |       Contact Us: +91 90000 00000.</p>
+               </center>
+              
+           </div>    
+       </footer>  
+    </body>
+</html>
